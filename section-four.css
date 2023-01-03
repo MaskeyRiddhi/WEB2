@@ -8,12 +8,27 @@
     font-family: 'Pacifico', cursive;
   }
 
+  
+
+  .P.headings{
+    width: 50%;
+    background-color: aqua;
+    padding: 5%;
+
+  }
   h1{
     font-size: 50px;
+    line-height: 1.1;
+    font-family: 'Pacifico', cursive;
   }
 
+  p{
+    margin-bottom: 100px;
+  }
   .figure{
     width: 100%;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     
   }
