@@ -11,17 +11,33 @@
 
   .headings{
     display: flex;
+    height:100%;
+    width: 100%;
   }
 
   .P.headings{
-    width: 50%;
     background-color: aqua;
     padding: 5%;
   }
+  .figure{
+    width: 70%;
+    height: auto;
+  }
+
+  img{
+    width:100%;
+    height:750px;
+  }
+  .para{
+    padding-left: 4%;
+      padding-top: 5%;
+      color: aliceblue;
+      width: 50%;
+  }
 
   h1{
-    font-size: 60px;
-    margin-bottom: 100px;
+    font-size: 80px;
+    margin-bottom: 300px;
     line-height: 1.1;
     font-family: 'Pacifico', cursive;
   }
@@ -32,6 +48,10 @@
       margin-bottom: 100px;
     }
   
-  .figure{
-    width: 80%;
+  
+
+  p{
+    font-size: 25px;
   }
+
+  
