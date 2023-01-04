@@ -3,23 +3,37 @@
 }
 
 body {
-    
     line-height: 1.5;
     font-size: 20px;
+    background-color: lightseagreen;
+  }
+
+  h1{
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 50px;
   }
 
   .container{
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding-top: 20px;
   }
-
-  .pic {
+.pic{
+  display: flex;
+}
+  .pic1 {
     width: 370px;
   }
-  
+  .pic2{
+    width: 500px;
+   
+  }
+  .pic3{
+    width: 370px;
+  }
   .pic figure {
     margin: 0;
   }
@@ -31,7 +45,7 @@ body {
   
   .pic h2 {
     margin: 10px 0;
-    font-weight: 300;
+    font-weight: 700;
     font-size: 30px;
     text-transform: uppercase;
     font-family: 'Lobster', cursive;

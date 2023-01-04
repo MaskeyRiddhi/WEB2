@@ -1,5 +1,4 @@
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-weight: 900;
@@ -18,12 +17,11 @@
     width: 50%;
     background-color: aqua;
     padding: 5%;
-    
-
   }
+
   h1{
     font-size: 60px;
-    
+    margin-bottom: 100px;
     line-height: 1.1;
     font-family: 'Pacifico', cursive;
   }
@@ -32,23 +30,8 @@
       border: 1px solid black;
       margin-top: 100px;
       margin-bottom: 100px;
-      margin-right: 150px;
-      margin-left: 80px;
-      background-color: lightblue;
     }
   
-  
-  p{
-    margin-bottom: 100px;
-  }
   .figure{
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    
-  }
-
-  .img{
-    width: 50%;
+    width: 80%;
   }
